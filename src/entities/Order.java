@@ -17,7 +17,7 @@ public class Order {
 	
 	private Client cliente;
 	private Product produto;
-	private OrderItem order;
+	
 	
 	
 	private List<OrderItem> items = new ArrayList<>();
