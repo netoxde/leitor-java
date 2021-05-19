@@ -78,42 +78,9 @@ public class Program {
 	    
 	    System.out.println(dados);
 	    
-	    
-	    
-	   
-	    
 
-	         
-	    	
-	    	
-	    	
-	    	
-	  
-	   
-	    
-	    
-	    
-	    
-	    
 	    
 	    sc.close();
 	    
 	}
 }
-
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-	
-

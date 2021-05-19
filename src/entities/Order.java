@@ -109,8 +109,7 @@ public class Order {
 			sb.append(", Subtotal: $");
 			sb.append(String.format("%.2f", x.subTotal()) + "\n");
 			
-			
-			
+		
 		}
 		
 		return sb.toString();

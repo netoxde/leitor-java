@@ -53,9 +53,5 @@ public class Client {
 			  + " - "
 			  + email;
 	}
-	
-	
-	
-	
-	
+
 }
