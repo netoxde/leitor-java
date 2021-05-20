@@ -14,11 +14,6 @@ import entities.OrderItem;
 import entities.Product;
 
 
-
-
-
-
-
 public class Program {
 
 	public static void main(String[] args) throws ParseException   {
@@ -38,6 +33,8 @@ public class Program {
 	    System.out.print("Birth date (DD/MM/YYYY): ");
 	    Date birthDate = sdf.parse(sc.next());
 	    
+	    
+	    Client cliente = new Client(name, email, birthDate);
 	    
 	    
 	    System.out.println("-------------------------------");
@@ -74,7 +71,7 @@ public class Program {
 	    
 	    
 	    System.out.println("-------------------------------");
-	    
+	   
 	    
 	    System.out.println(dados);
 	    
