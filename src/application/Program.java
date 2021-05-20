@@ -32,16 +32,13 @@ public class Program {
 	    
 	    System.out.print("Birth date (DD/MM/YYYY): ");
 	    Date birthDate = sdf.parse(sc.next());
-	    
-	    
-	    Client cliente = new Client(name, email, birthDate);
-	    
-	    
+	 
 	    System.out.println("-------------------------------");
 	    
 	    System.out.print ("Status: ");
 	    sc.nextLine();
 	    String status = sc.nextLine();
+	    
 	    System.out.println("-------------------------------");
 	    System.out.print("How many items to this order? ");
 	    int n = sc.nextInt();
