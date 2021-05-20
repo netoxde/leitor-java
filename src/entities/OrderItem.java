@@ -1,24 +1,20 @@
 package entities;
 
 public class OrderItem {
-
+	
 	private Integer quantity;
 	private Double price;
 	
 	private Product produto;
 	
-	
 	public OrderItem() {
 		}
-	
+
 	public OrderItem(Integer quantity, Double price, Product produto) {
-		
 		this.quantity = quantity;
 		this.price = price;
 		this.produto = produto;
 	}
-	
-	
 
 	public Integer getQuantity() {
 		return quantity;
@@ -35,7 +31,7 @@ public class OrderItem {
 	public void setPrice(Double price) {
 		this.price = price;
 	}
-
+	
 	public Product getProduto() {
 		return produto;
 	}
@@ -43,20 +39,10 @@ public class OrderItem {
 	public void setProduto(Product produto) {
 		this.produto = produto;
 	}
-
-	public Double subTotal() {
-		return quantity * price;
+	
+	
+	public double subTotal() {
+		return quantity*price;
 	}
 	
-	
-	
-	public String toString() {
-		return getProduto().toString()
-			   +", "
-			   + String.format("%.2f", price)
-			   +", Quantity: "
-			   + quantity
-			   + " "
-			   + String.format("%.2f", subTotal());
-	}
 }
